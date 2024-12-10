@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Kwik Notes",
+    "version": "1.0.0",
+    "description": "Email-based note taking for projects",
+    "permissions": [
+        "storage",
+        "identity"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    }
+}
